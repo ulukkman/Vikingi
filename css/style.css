@@ -153,3 +153,84 @@ body {
 	font-size: 36px;
 	line-height: 42px;
 }
+
+.menu__list-link--active,
+.menu__list-link:hover,
+.menu__list-link:focus {
+  color: #85ccdc;
+	text-decoration: underline;
+}
+
+.logo {
+  padding-top: 178px;
+}
+
+/* /header */
+/* about */
+
+.about__inner {
+	display: flex;
+}
+
+.about__info {
+	width: 375px;
+	margin-right: 50px;
+	flex: none;
+}
+
+.about__info-item {
+	margin-bottom: 25px;
+	color: #e5e5e5;
+}
+
+.about__info-item span {
+	display: block;
+}
+
+.about__text p {
+	margin-bottom: 25px;
+}
+
+/* /about */
+/* video */
+
+.video {
+  background-image: url(../images/video-bg.jpg);
+  height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+.video__text {
+  font-style: italic;
+	font-weight: 300;
+	font-size: 72px;
+	line-height: 84px;
+	color: #85ccdc;
+	padding-top: 444px;
+	margin-bottom: 40px;
+}
+
+.video__text span {
+	display: block;
+	padding-right: 285px;
+}
+
+.video__btn {
+	padding-left: 112px;
+	position: relative;
+	margin-right: 230px;
+}
+
+.video__btn::before {
+	content: "";
+	position: absolute;
+	top: -40px;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	background-image: url(../images/youtube-btn.svg);
+	background-repeat: no-repeat;
+}
